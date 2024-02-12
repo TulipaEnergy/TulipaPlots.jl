@@ -12,6 +12,8 @@
 [![Coverage](https://codecov.io/gh/TulipaEnergy/TulipaPlots.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/TulipaEnergy/TulipaPlots.jl)
 [![DOI](https://zenodo.org/badge/DOI/FIXME)](https://doi.org/FIXME)
 
+This package contains plotting functions for TulipaEnergyModel.jl.
+
 ## How to Cite
 
 If you use TulipaPlots.jl in your work, please cite using the reference given in [CITATION.cff](https://github.com/TulipaEnergy/TulipaPlots.jl/blob/main/CITATION.cff).
