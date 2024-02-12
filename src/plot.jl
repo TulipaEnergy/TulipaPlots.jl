@@ -24,7 +24,7 @@ function plot_single_flow(graph::MetaGraph, asset_from::String, asset_to::String
 end
 
 function plot_single_flow(
-  energy_problem::EnergyProblem,
+  energy_problem::TulipaEnergyModel.EnergyProblem,
   asset_from::String,
   asset_to::String,
   rp::Int64,
@@ -124,7 +124,7 @@ function plot_graph(graph::MetaGraph)
   return f
 end
 
-function plot_graph(energy_problem::EnergyProblem)
+function plot_graph(energy_problem::TulipaEnergyModel.EnergyProblem)
   plot_graph(energy_problem.graph)
 end
 
@@ -158,6 +158,6 @@ function plot_assets_capacity(graph::MetaGraph)
   )
 end
 
-function plot_assets_capacity(energy_problem::EnergyProblem)
+function plot_assets_capacity(energy_problem::TulipaEnergyModel.EnergyProblem)
   plot_assets_capacity(energy_problem.graph)
 end
