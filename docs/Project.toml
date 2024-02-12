@@ -1,0 +1,10 @@
+# Don't forget to run
+#
+#     pkg> dev ..
+#
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+TulipaPlots = "b0e16111-6728-43b3-a540-753ecafcbb71"
+
+[compat]
+Documenter = "1"

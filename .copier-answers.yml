@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier
+AddMacToCI: true
+AddWinToCI: false
+AuthorEmail: ni.wang@tno.nl
+AuthorName: TNO
+JuliaMinVersion: '1.6'
+License: Apache-2.0
+PackageName: TulipaPlots
+PackageOwner: TulipaEnergy
+PackageUUID: b0e16111-6728-43b3-a540-753ecafcbb71
+RunJuliaNightlyOnCI: true
+UseCirrusCI: false
+_commit: v0.2.4
+_src_path: https://github.com/abelsiqueira/COPIERTemplate.jl
