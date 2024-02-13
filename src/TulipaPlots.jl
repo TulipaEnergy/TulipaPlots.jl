@@ -6,7 +6,7 @@ module TulipaPlots
 using Graphs, MetaGraphsNext
 
 ## Optimization
-using TulipaEnergyModel, HiGHS
+using TulipaEnergyModel
 
 ## Plots
 using Plots, Colors, GraphMakie, GraphMakie.NetworkLayout, CairoMakie

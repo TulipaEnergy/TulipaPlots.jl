@@ -1,7 +1,6 @@
 using TulipaEnergyModel
 using TulipaPlots
 using Test
-using HiGHS
 
 # Folders names
 const INPUT_FOLDER = joinpath(@__DIR__, "inputs")
