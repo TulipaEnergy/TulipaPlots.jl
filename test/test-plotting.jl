@@ -1,5 +1,5 @@
 @testset "Plotting" begin
-  dir = joinpath(INPUT_FOLDER, "Norse")
+  dir = joinpath(Pkg.dir("TulipaEnergyModel"), "test/inputs/Norse")
   energy_problem = run_scenario(dir)
   @testset "Codecov Demands Graphs" begin
     # Prefix is used because TulipaEnergyModel also exports these functions
