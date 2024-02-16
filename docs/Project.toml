@@ -1,9 +1,6 @@
-# Don't forget to run
-#
-#     pkg> dev ..
-#
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+TulipaEnergyModel = "5d7bd171-d18e-45a5-9111-f1f11ac5d04d"
 TulipaPlots = "b0e16111-6728-43b3-a540-753ecafcbb71"
 
 [compat]
