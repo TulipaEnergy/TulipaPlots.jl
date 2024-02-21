@@ -14,4 +14,7 @@ TulipaEnergyModel = "5d7bd171-d18e-45a5-9111-f1f11ac5d04d"
 
 [compat]
 TulipaEnergyModel = "0.6"
+Graphs = "1"
+Colors = "0.12"
+Plots = "1"
 julia = "1.6"
