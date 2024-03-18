@@ -6,5 +6,7 @@
     TulipaPlots.plot_single_flow(energy_problem, "Asgard_Solar", "Asgard_Battery", 1)
     TulipaPlots.plot_graph(energy_problem)
     TulipaPlots.plot_assets_capacity(energy_problem)
+    TulipaPlots.plot_storage_level_inter(energy_problem)
+    TulipaPlots.plot_storage_level_intra(energy_problem)
   end
 end

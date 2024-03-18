@@ -25,10 +25,6 @@ repos:
       - id: trailing-whitespace
       - id: check-merge-conflict
         args: [--assume-in-merge]
-  - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.37.0
-    hooks:
-      - id: markdownlint-fix
   - repo: https://github.com/citation-file-format/cffconvert
     rev: 054bda51dbe278b3e86f27c890e3f3ac877d616c
     hooks:
@@ -37,7 +33,7 @@ repos:
     rev: "v3.0.3" # Use the sha or tag you want to point at
     hooks:
       - id: prettier
-        types_or: [yaml, json]
+        types_or: [yaml, json, markdown]
         exclude: ".copier-answers.yml"
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.32.0
