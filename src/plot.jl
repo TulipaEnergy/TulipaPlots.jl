@@ -9,7 +9,7 @@ the "from" (exporting) asset, the "to" (importing) asset, and the representative
 
 """
 function plot_single_flow(graph::MetaGraph, asset_from::String, asset_to::String, rp::Int64)
-  rp_partition = graph[asset_from, asset_to].partitions[rp]
+  rp_partition = graph[asset_from, asset_to].rep_periods_partitions[rp]
   time_dimension = 1:length(rp_partition)
   flow_value = [graph[asset_from, asset_to].flow[(rp, B)] for B in rp_partition]
 
