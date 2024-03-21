@@ -2,6 +2,7 @@
 
 <!-- This check was disabled because these links don't exist until you push, create documentation, and create your first release -->
 <!-- markdown-link-check-disable -->
+
 [![Stable Documentation](https://img.shields.io/badge/docs-stable-blue.svg)](https://TulipaEnergy.github.io/TulipaPlots.jl/stable)
 [![In development documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://TulipaEnergy.github.io/TulipaPlots.jl/dev)
 [![Build Status](https://github.com/TulipaEnergy/TulipaPlots.jl/workflows/Test/badge.svg)](https://github.com/TulipaEnergy/TulipaPlots.jl/actions)

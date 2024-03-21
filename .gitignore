@@ -2,5 +2,7 @@
 *.jl.cov
 *.jl.mem
 Manifest.toml
+.vscode/
+debugging/
 docs/build/
 *.rej

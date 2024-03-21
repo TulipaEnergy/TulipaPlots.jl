@@ -1,6 +1,8 @@
-# Example
+# Examples
 
-TulipaPlots.jl has three functions for plotting: a time-series flows, a visualisation of the graph (with asset and flow capacities), and a bar graph of the initial and invested asset capacities. We show an example for plotting using the solution from the Norse case in TulipaEnergyModel.jl.
+## Plotting the basics
+
+TulipaPlots.jl has three functions for basic plotting: a time-series flows, a visualisation of the graph (with asset and flow capacities), and a bar graph of the initial and invested asset capacities. We show an example for plotting using the solution from the Norse case in TulipaEnergyModel.jl.
 
 First obtain the solution:
 
@@ -30,6 +32,22 @@ Graph the final capacities of assets:
 
 ```@example solution
 TulipaPlots.plot_assets_capacity(energy_problem)
+```
+
+## Plotting the storage levels
+
+TulipaPlots.jl has two functions for plotting the storage levels.
+
+Plot the inter storage level:
+
+```@example solution
+TulipaPlots.plot_storage_level_inter(energy_problem)
+```
+
+Plot the intra storage level:
+
+```@example solution
+TulipaPlots.plot_storage_level_intra(energy_problem)
 ```
 
 If you would like more custom plots, explore the code of [plot](https://github.com/TulipaEnergy/TulipaPlots.jl/blob/main/src/TulipaPlots.jl) for ideas.

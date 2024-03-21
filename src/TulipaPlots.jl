@@ -9,8 +9,9 @@ using Graphs, MetaGraphsNext
 using TulipaEnergyModel
 
 ## Plots
-using Plots, Colors, GraphMakie, GraphMakie.NetworkLayout, CairoMakie
+using Plots, StatsPlots, Colors, GraphMakie, GraphMakie.NetworkLayout, CairoMakie
 
-include("plot.jl")
+include("plot_basic.jl")
+include("plot_storage.jl")
 
 end
