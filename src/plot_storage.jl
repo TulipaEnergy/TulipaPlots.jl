@@ -1,7 +1,7 @@
 export plot_storage_level_inter, plot_storage_level_intra
 
 """
-  plot_storage_level_inter(energy_problem)
+    plot_storage_level_inter(energy_problem)
 
 Given an energy problem, display a line graph of the inter storage level.
 """
@@ -24,7 +24,7 @@ function plot_storage_level_inter(energy_problem::EnergyProblem)
 end
 
 """
-  plot_storage_level_intra(energy_problem)
+    plot_storage_level_intra(energy_problem)
 
 Given an energy problem, display a line graph of the intra storage level.
 """
