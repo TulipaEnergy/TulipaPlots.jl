@@ -11,7 +11,7 @@
 [![Docs workflow Status](https://github.com/TulipaEnergy/TulipaPlots.jl/actions/workflows/Docs.yml/badge.svg?branch=main)](https://github.com/TulipaEnergy/TulipaPlots.jl/actions/workflows/Docs.yml?query=branch%3Amain)
 
 [![Coverage](https://codecov.io/gh/TulipaEnergy/TulipaPlots.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/TulipaEnergy/TulipaPlots.jl)
-[![DOI](https://zenodo.org/badge/DOI/FIXME)](https://doi.org/FIXME)
+[![DOI](https://zenodo.org/badge/756319674.svg)](https://zenodo.org/doi/10.5281/zenodo.10959945)
 
 This package contains plotting functions for TulipaEnergyModel.jl.
 
