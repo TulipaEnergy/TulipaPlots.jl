@@ -14,7 +14,7 @@ StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
 TulipaEnergyModel = "5d7bd171-d18e-45a5-9111-f1f11ac5d04d"
 
 [compat]
-CairoMakie = "0.11"
+CairoMakie = "0.11, 0.12"
 Colors = "0.12"
 GraphMakie = "0.5"
 Graphs = "1"
